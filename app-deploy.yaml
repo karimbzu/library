@@ -59,6 +59,7 @@ metadata:
     stack.appsody.dev/id: nodejs-express
     stack.appsody.dev/version: 0.2.10
   name: express-locallibrary-tutorial
+  namespace: express
 spec:
   applicationImage: image-registry.openshift-image-registry.svc:5000/express/express-locallibrary-tutorial:17392
   createKnativeService: true
